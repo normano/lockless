@@ -1,7 +1,7 @@
 // Copied from futures, to test our version of an MPSC queue
 
 extern crate futures;
-extern crate lockless;
+extern crate locklessness;
 
 use futures::{Future, Stream, Sink, Async, AsyncSink};
 use futures::future::lazy;
@@ -11,7 +11,7 @@ use std::thread;
 use std::sync::{Arc, Mutex};
 use std::sync::atomic::{AtomicUsize, Ordering};
 
-use lockless::sync::mpmc_queue::{ResizingMpmcQueueReceiver, ResizingMpmcQueueSender, self};
+use locklessness::sync::mpmc_queue::{ResizingMpmcQueueReceiver, ResizingMpmcQueueSender, self};
 
 fn is_send<T: Send>() {}
 

@@ -3,7 +3,7 @@ name = "locklessness"
 version = "0.2.1"
 authors = ["N Ovenseri <novenseri@gmail.com>"]
 description = "Composable, lock-free, allocation-light data structures"
-repository = "https://github.com/Diggsey/lockless"
+repository = "https://github.com/normano/lockless"
 license = "MIT OR Apache-2.0"
 categories = ["concurrency", "asynchronous"]
 

@@ -1,4 +1,4 @@
-# Lockless
+# Locklessness
 
 This is an attempt to build useful high-level lock-free data structures,
 by designing simple, composable primitives and incrementally building complexity.
